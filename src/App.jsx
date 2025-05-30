@@ -4,6 +4,7 @@ import Home from './components/home'
 import Parfumes from './components/parfumes'
 import About from './components/about'
 import Contact from './components/contact'
+import Footer from './components/footer'
 
 function App() {
     const [page, setPage] = useState("home")
@@ -11,6 +12,7 @@ function App() {
         setPage(page)
     }
     useEffect(() => {
+        console.log(page)
         document.querySelectorAll(".active").forEach((el) => {
             el.classList.remove("active");
         });
@@ -24,6 +26,7 @@ function App() {
             {page === "parfumes" && <Parfumes handlePageChange={handlePageChange} />}
             {page === "about" && <About handlePageChange={handlePageChange} />}
             {page === "contact" && <Contact handlePageChange={handlePageChange} />}
+            <Footer />
         </>
     )
 

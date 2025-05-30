@@ -15,7 +15,7 @@ const About = ({ handlePageChange }) => {
     const handleSearchSubmit = (e) => {
         e.preventDefault();
         // Handle search logic here
-        console.log('Search query:', searchQuery);
+        // console.log('Search query:', searchQuery);
         handleSearchClose();
     };
     useEffect(() => {
@@ -69,15 +69,13 @@ const About = ({ handlePageChange }) => {
                     <div className="grid md:grid-cols-2 gap-12">
                         <div className="space-y-6">
                             <p className="text-lg text-gray-700">
-                                Fondée avec une vision de créer des parfums qui transcendent le temps, ESSENCE est devenue
-                            une référence de luxe et de sophistication dans le monde de la parfumerie. Notre parcours a commencé
-                            avec une croyance simple - que chaque personne a une histoire unique, et chaque histoire mérite
-                            un parfum signature.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta officia aperiam atque perspiciatis laborum assumenda praesentium dicta autem laboriosam reiciendis adipisci delectus itaque neque nobis, nostrum dignissimos, labore mollitia.
                             </p>
                             <p className="text-lg text-gray-700">
-                                Nous travaillons en étroite collaboration avec des parfumeurs renommés dans le monde pour créer des parfums qui ne sont pas seulement beaux
-                            mais qui évoquent aussi des émotions et des souvenirs. Chaque flacon est un témoignage de notre
-                            engagement envers l'excellence et notre dévouement à créer des chefs-d'œuvre intemporels.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta officia aperiam atque perspiciatis laborum assumenda praesentium dicta autem laboriosam reiciendis adipisci delectus itaque neque nobis, nostrum dignissimos, labore mollitia.
+                            </p>
+                            <p className="text-lg text-gray-700">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta officia aperiam atque perspiciatis laborum assumenda praesentium dicta autem laboriosam reiciendis adipisci delectus itaque neque nobis, nostrum dignissimos, labore mollitia.
                             </p>
                         </div>
                         <div className="bg-gray-50 p-8 rounded-lg shadow-md">
@@ -85,19 +83,19 @@ const About = ({ handlePageChange }) => {
                             <ul className="space-y-4">
                                 <li className="flex items-center space-x-3">
                                     <span className="text-[#D4AF37]">•</span>
-                                    <span className="text-gray-700">Quality Above All</span>
+                                    <span className="text-gray-700">La qualité avant tout</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <span className="text-[#D4AF37]">•</span>
-                                    <span className="text-gray-700">Sustainable Practices</span>
+                                    <span className="text-gray-700">Pratiques durables</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <span className="text-[#D4AF37]">•</span>
-                                    <span className="text-gray-700">Artisanal Craftsmanship</span>
+                                    <span className="text-gray-700">Artisanat</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <span className="text-[#D4AF37]">•</span>
-                                    <span className="text-gray-700">Customer Satisfaction</span>
+                                    <span className="text-gray-700">Satisfaction Client</span>
                                 </li>
                             </ul>
                         </div>
@@ -106,22 +104,22 @@ const About = ({ handlePageChange }) => {
 
                 {/* Team Section */}
                 <section>
-                    <h2 className="text-3xl font-serif font-bold text-[#D4AF37] mb-8">Our Team</h2>
+                    <h2 className="text-3xl font-serif font-bold text-[#D4AF37] mb-8">Notre Equipe</h2>
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-white rounded-lg shadow-md p-6 text-center">
                             <div className="w-32 h-32 mx-auto rounded-full bg-gray-100 mb-4"></div>
-                            <h3 className="text-xl font-serif text-[#D4AF37] mb-2">Chief Perfumer</h3>
-                            <p className="text-gray-600">Master of Fragrance Creation</p>
+                            <h3 className="text-xl font-serif text-[#D4AF37] mb-2">Chef Parfumeur</h3>
+                            <p className="text-gray-600">Chef de la Création des Parfums</p>
                         </div>
                         <div className="bg-white rounded-lg shadow-md p-6 text-center">
                             <div className="w-32 h-32 mx-auto rounded-full bg-gray-100 mb-4"></div>
-                            <h3 className="text-xl font-serif text-[#D4AF37] mb-2">Creative Director</h3>
-                            <p className="text-gray-600">Visionary Designer</p>
+                            <h3 className="text-xl font-serif text-[#D4AF37] mb-2">Directeur Creatif</h3>
+                            <p className="text-gray-600">Concepteur visionnaire</p>
                         </div>
                         <div className="bg-white rounded-lg shadow-md p-6 text-center">
                             <div className="w-32 h-32 mx-auto rounded-full bg-gray-100 mb-4"></div>
-                            <h3 className="text-xl font-serif text-[#D4AF37] mb-2">Master Blender</h3>
-                            <p className="text-gray-600">Fragrance Expert</p>
+                            <h3 className="text-xl font-serif text-[#D4AF37] mb-2">Master Blendeur</h3>
+                            <p className="text-gray-600">Expert Fragrance</p>
                         </div>
                     </div>
                 </section>

@@ -15,7 +15,7 @@ const Home = ({ handlePageChange }) => {
     const handleSearchSubmit = (e) => {
         e.preventDefault();
         // Handle search logic here
-        console.log('Search query:', searchQuery);
+        // console.log('Search query:', searchQuery);
         handleSearchClose();
     };
     useEffect(() => {
@@ -69,7 +69,7 @@ const Home = ({ handlePageChange }) => {
                         Découvrez notre collection exclusive de parfums de luxe conçus pour exprimer votre personnalité unique.
                     </p>
                     <a href="#">
-                        <button className="bg-[#D4AF37] hover:bg-[#C9A227] text-white px-8 py-3 text-lg font-medium transition-all duration-300 cursor-pointer !rounded-button whitespace-nowrap">
+                        <button onClick={() => handlePageChange('parfumes')} className="bg-[#D4AF37] hover:bg-[#C9A227] text-white px-8 py-3 text-lg font-medium transition-all duration-300 cursor-pointer !rounded-button whitespace-nowrap">
                             Découvrir la Collection
                         </button>
                     </a>
@@ -96,9 +96,9 @@ const Home = ({ handlePageChange }) => {
                                 />
                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300"></div>
                             </div>
-                            <h3 className="text-xl font-serif text-gray-900 mb-2">Bleu Éthéré</h3>
+                            <h3 className="text-xl font-serif text-gray-900 mb-2">Ethereal Bloom</h3>
                             <div className="flex justify-between items-center">
-                                <p className="text-[#D4AF37] font-medium">1 FCFA</p>
+                                <p className="text-[#D4AF37] font-medium">10000 FCFA</p>
                                 <button className="border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white px-5 py-2 transition-colors duration-300 cursor-pointer !rounded-button whitespace-nowrap">
                                     Achat
                                 </button>
@@ -114,9 +114,9 @@ const Home = ({ handlePageChange }) => {
                                 />
                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300"></div>
                             </div>
-                            <h3 className="text-xl font-serif text-gray-900 mb-2">Velours Sombre</h3>
+                            <h3 className="text-xl font-serif text-gray-900 mb-2">Midnight Velvet</h3>
                             <div className="flex justify-between items-center">
-                                <p className="text-[#D4AF37] font-medium">1 FCFA</p>
+                                <p className="text-[#D4AF37] font-medium">15000 FCFA</p>
                                 <button className="border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white px-5 py-2 transition-colors duration-300 cursor-pointer !rounded-button whitespace-nowrap">
                                     Achat
                                 </button>
@@ -132,9 +132,9 @@ const Home = ({ handlePageChange }) => {
                                 />
                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300"></div>
                             </div>
-                            <h3 className="text-xl font-serif text-gray-900 mb-2">Aura d'Or</h3>
+                            <h3 className="text-xl font-serif text-gray-900 mb-2">Golden Aura</h3>
                             <div className="flex justify-between items-center">
-                                <p className="text-[#D4AF37] font-medium">1 FCFA</p>
+                                <p className="text-[#D4AF37] font-medium">12000 FCFA</p>
                                 <button className="border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white px-5 py-2 transition-colors duration-300 cursor-pointer !rounded-button whitespace-nowrap">
                                     Achat
                                 </button>
@@ -142,7 +142,7 @@ const Home = ({ handlePageChange }) => {
                         </div>
                     </div>
                     <div className="text-center mt-16">
-                        <button className="bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white px-8 py-3 text-lg font-medium transition-all duration-300 cursor-pointer !rounded-button whitespace-nowrap">
+                        <button onClick={() => handlePageChange('parfumes')} className="bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white px-8 py-3 text-lg font-medium transition-all duration-300 cursor-pointer !rounded-button whitespace-nowrap">
                             Voir Toutes les Collections
                         </button>
                     </div>
@@ -155,12 +155,12 @@ const Home = ({ handlePageChange }) => {
                         <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
                             <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-6">Experience Luxe</h2>
                             <p className="text-gray-700 mb-6">
-                                Chaque parfum est soigneusement conçu par nos maîtres parfumeurs en utilisant les ingrédients les plus fins provenant du monde entier. Notre engagement en qualité garantit une expérience olfactive exceptionnelle qui dure.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta officia aperiam atque perspiciatis laborum assumenda praesentium dicta autem laboriosam reiciendis adipisci delectus itaque neque nobis, nostrum dignissimos, labore mollitia.
                             </p>
                             <p className="text-gray-700 mb-8">
-                                Nous croyons que un parfum est plus qu'un parfum—it's an expression of personality, a memory in the making, and a statement of elegance.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta officia aperiam atque perspiciatis laborum assumenda praesentium dicta autem laboriosam reiciendis adipisci delectus itaque neque nobis, nostrum dignissimos, labore mollitia.
                             </p>
-                            <button className="border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white px-6 py-2 transition-colors duration-300 cursor-pointer !rounded-button whitespace-nowrap">
+                            <button onClick={() => handlePageChange('about')} className="border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white px-6 py-2 transition-colors duration-300 cursor-pointer !rounded-button whitespace-nowrap">
                                 Notre Histoire
                             </button>
                         </div>
@@ -172,75 +172,13 @@ const Home = ({ handlePageChange }) => {
                                     className="w-full h-auto rounded-lg shadow-lg"
                                 />
                                 <div className="absolute -bottom-5 -right-5 bg-white p-4 rounded shadow-lg hidden md:block">
-                                    <p className="text-[#D4AF37] font-serif italic">"Craftsmanship in every bottle"</p>
+                                    <p className="text-[#D4AF37] font-serif italic">"L'artisanat dans chaque bouteille"</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            {/* Footer */}
-            <footer className="bg-white pt-16 pb-8">
-                <div className="container mx-auto px-4">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-                        <div>
-                            <h3 className="text-xl font-serif text-gray-900 mb-4">ESSENCE</h3>
-                            <p className="text-gray-600 mb-4">
-                                Luxe parfums fabriqués pour exprimer votre personnalité unique et éléver vos expériences quotidiennes.
-                            </p>
-                            <div className="flex space-x-4">
-                                <a href="#" className="text-gray-400 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">
-                                    <i className="fab fa-instagram"></i>
-                                </a>
-                                <a href="#" className="text-gray-400 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">
-                                    <i className="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#" className="text-gray-400 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">
-                                    <i className="fab fa-pinterest-p"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-medium text-gray-900 mb-4">Nos Collections</h3>
-                            <ul className="space-y-2">
-                                <li><a href="#" className="text-gray-600 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">All Fragrances</a></li>
-                                <li><a href="#" className="text-gray-600 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">New Arrivals</a></li>
-                                <li><a href="#" className="text-gray-600 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">Best Sellers</a></li>
-                                <li><a href="#" className="text-gray-600 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">Gift Sets</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-medium text-gray-900 mb-4">A propos</h3>
-                            <ul className="space-y-2">
-                                <li><a href="#" className="text-gray-600 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">Notre Histoire</a></li>
-                                <li><a href="#" className="text-gray-600 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">Craftsmanship</a></li>
-                                <li><a href="#" className="text-gray-600 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">Sustainability</a></li>
-                                <li><a href="#" className="text-gray-600 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">Press</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-medium text-gray-900 mb-4">Service Client</h3>
-                            <ul className="space-y-2">
-                                <li><a href="#" className="text-gray-600 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">Contactez-nous</a></li>
-                                <li><a href="#" className="text-gray-600 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">Shipping & Returns</a></li>
-                                <li><a href="#" className="text-gray-600 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">FAQ</a></li>
-                                <li><a href="#" className="text-gray-600 hover:text-[#D4AF37] transition-colors duration-300 cursor-pointer">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="pt-8 border-t border-gray-200 text-center">
-                        <p className="text-gray-500 text-sm">
-                            © {new Date().getFullYear()} ESSENCE. Tous droits réservés.
-                        </p>
-                        <div className="flex justify-center mt-4 space-x-4">
-                            <i className="fab fa-cc-visa text-gray-400 text-xl"></i>
-                            <i className="fab fa-cc-mastercard text-gray-400 text-xl"></i>
-                            <i className="fab fa-cc-amex text-gray-400 text-xl"></i>
-                            <i className="fab fa-cc-paypal text-gray-400 text-xl"></i>
-                        </div>
-                    </div>
-                </div>
-            </footer>
         </div>
     );
 }

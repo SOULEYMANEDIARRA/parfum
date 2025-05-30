@@ -131,7 +131,7 @@ export default function Nav({ isScrolled, handleSearchOpen, handleSearchClose, i
                                 <a 
                                     href="#" 
                                     onClick={() => { handlePageChange('home'); handleMobileMenuClose(); }} 
-                                    className="home active block text-lg font-medium text-gray-800 hover:text-[#D4AF37] transition-colors duration-300 py-2 px-4 rounded-lg hover:bg-gray-50"
+                                    className="home block text-lg font-medium text-gray-800 hover:text-[#D4AF37] transition-colors duration-300 py-2 px-4 rounded-lg hover:bg-gray-50"
                                 >
                                     Accueil
                                 </a>

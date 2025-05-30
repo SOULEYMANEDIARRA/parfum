@@ -9,7 +9,7 @@ const Contact = ({ handlePageChange }) => {
     });
     const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
-  
+
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -39,7 +39,7 @@ const Contact = ({ handlePageChange }) => {
     const handleSearchSubmit = (e) => {
         e.preventDefault();
         // Handle search logic here
-        console.log('Search query:', searchQuery);
+        // console.log('Search query:', searchQuery);
         handleSearchClose();
     };
     useEffect(() => {
@@ -62,7 +62,7 @@ const Contact = ({ handlePageChange }) => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-    
+
 
     return (
         <div className="min-h-screen bg-[#FDF6E9]">
@@ -160,19 +160,19 @@ const Contact = ({ handlePageChange }) => {
 
                 {/* Contact Information */}
                 <section className="mt-16 text-center">
-                    <h2 className="text-3xl font-serif font-bold text-[#D4AF37] mb-8">Get in Touch</h2>
+                    <h2 className="text-3xl font-serif font-bold text-[#D4AF37] mb-8">Entrer en contact</h2>
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-white rounded-lg shadow-md p-6">
                             <h3 className="text-xl font-serif text-[#D4AF37] mb-4">Email</h3>
-                            <p className="text-gray-700">contact@essenceperfumes.com</p>
+                            <p className="text-gray-700">souleymane73495256@gmail.com</p>
                         </div>
                         <div className="bg-white rounded-lg shadow-md p-6">
-                            <h3 className="text-xl font-serif text-[#D4AF37] mb-4">Phone</h3>
-                            <p className="text-gray-700">+1 (555) 123-4567</p>
+                            <h3 className="text-xl font-serif text-[#D4AF37] mb-4">Téléphone</h3>
+                            <p className="text-gray-700">+223 70 03 48 21</p>
                         </div>
                         <div className="bg-white rounded-lg shadow-md p-6">
-                            <h3 className="text-xl font-serif text-[#D4AF37] mb-4">Address</h3>
-                            <p className="text-gray-700">123 Fragrance Avenue, Paris, France</p>
+                            <h3 className="text-xl font-serif text-[#D4AF37] mb-4">Adresse</h3>
+                            <p className="text-gray-700">Bamako, Mali</p>
                         </div>
                     </div>
                 </section>
