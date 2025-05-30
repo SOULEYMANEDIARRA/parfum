@@ -91,7 +91,7 @@ function Parfumes({ handlePageChange }) {
             name: "Ethereal Bloom",
             price: 20000,
             description: "A delicate floral fragrance with notes of jasmine, rose, and lily of the valley.",
-            image: "https://readdy.ai/api/search-image?query=Elegant%2520luxury%2520perfume%2520bottle%2520with%2520gold%2520accents%2520and%2520a%2520cream%2520colored%2520cap%2520on%2520a%2520soft%2520beige%2520background%2520with%2520subtle%2520shadows%252C%2520minimalist%2520high-end%2520product%2520photography%2520with%2520perfect%2520lighting%2520highlighting%2520the%2520glass%2520texture%2520and%2520liquid%2520inside&width=500&height=600&seq=2&orientation=portrait",
+            image: "1.jpg",
             scent: "Florale"
         },
         {
@@ -99,7 +99,7 @@ function Parfumes({ handlePageChange }) {
             name: "Midnight Velvet",
             price: 24500,
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid nobis, praesentium amet rerum ab tempora ipsam nam.",
-            image: "https://readdy.ai/api/search-image?query=Sophisticated%2520dark%2520amber%2520glass%2520perfume%2520bottle%2520with%2520gold%2520details%2520on%2520a%2520cream%2520colored%2520background%2520with%2520soft%2520lighting%2520and%2520subtle%2520smoke%2520effect%2520creating%2520an%2520atmosphere%2520of%2520mystery%2520and%2520luxury%252C%2520high-end%2520product%2520photography%2520with%2520perfect%2520composition&width=500&height=600&seq=3&orientation=portrait",
+            image: "2.jpg",
             scent: "Orientale"
         },
         {
@@ -107,7 +107,7 @@ function Parfumes({ handlePageChange }) {
             name: "Golden Aura",
             price: 17500,
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid nobis, praesentium amet rerum ab tempora ipsam nam.",
-            image: "https://readdy.ai/api/search-image?query=Crystal%2520clear%2520perfume%2520bottle%2520with%2520gold%2520embellishments%2520and%2520a%2520white%2520stopper%2520on%2520a%2520cream%2520colored%2520background%2520with%2520soft%2520shadows%2520and%2520subtle%2520floral%2520elements%252C%2520minimalist%2520luxury%2520product%2520photography%2520with%2520perfect%2520lighting%2520highlighting%2520the%2520transparency&width=500&height=600&seq=4&orientation=portrait",
+            image: "3.jpg",
             scent: "Fraîche"
         },
         {
@@ -115,7 +115,7 @@ function Parfumes({ handlePageChange }) {
             name: "Amber Mystique",
             price: 22000,
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid nobis, praesentium amet rerum ab tempora ipsam nam.",
-            image: "https://readdy.ai/api/search-image?query=Elegant%2520amber%2520glass%2520perfume%2520bottle%2520with%2520ornate%2520gold%2520cap%2520on%2520a%2520cream%2520colored%2520background%2520with%2520soft%2520lighting%2520and%2520subtle%2520wood%2520elements%2520creating%2520a%2520warm%2520luxurious%2520atmosphere%252C%2520high-end%2520product%2520photography%2520with%2520perfect%2520composition&width=500&height=600&seq=6&orientation=portrait",
+            image: "4.jpg",
             scent: "Boisée"
         },
         {
@@ -123,7 +123,7 @@ function Parfumes({ handlePageChange }) {
             name: "Silk Embrace",
             price: 18500,
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid nobis, praesentium amet rerum ab tempora ipsam nam.",
-            image: "https://readdy.ai/api/search-image?query=Delicate%2520glass%2520perfume%2520bottle%2520with%2520silver%2520and%2520gold%2520accents%2520on%2520a%2520cream%2520colored%2520background%2520with%2520soft%2520lighting%2520and%2520subtle%2520silk%2520fabric%2520elements%2520creating%2520an%2520elegant%2520atmosphere%252C%2520luxury%2520product%2520photography%2520with%2520perfect%2520composition&width=500&height=600&seq=7&orientation=portrait",
+            image: "5.jpg",
             scent: "Florale"
         },
         {
@@ -131,7 +131,7 @@ function Parfumes({ handlePageChange }) {
             name: "Noir Intense",
             price: 26500,
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid nobis, praesentium amet rerum ab tempora ipsam nam.",
-            image: "https://readdy.ai/api/search-image?query=Dark%2520sophisticated%2520glass%2520perfume%2520bottle%2520with%2520black%2520and%2520gold%2520details%2520on%2520a%2520cream%2520colored%2520background%2520with%2520dramatic%2520lighting%2520and%2520subtle%2520smoke%2520effect%2520creating%2520a%2520mysterious%2520atmosphere%252C%2520luxury%2520product%2520photography%2520with%2520perfect%2520composition&width=500&height=600&seq=8&orientation=portrait",
+            image: "6.jpg",
             scent: "Orientale"
         },
         {
@@ -139,7 +139,7 @@ function Parfumes({ handlePageChange }) {
             name: "Ocean Breeze",
             price: 16000,
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid nobis, praesentium amet rerum ab tempora ipsam nam.",
-            image: "https://readdy.ai/api/search-image?query=Blue%2520tinted%2520glass%2520perfume%2520bottle%2520with%2520silver%2520cap%2520on%2520a%2520cream%2520colored%2520background%2520with%2520soft%2520lighting%2520and%2520subtle%2520water%2520elements%2520creating%2520a%2520fresh%2520atmosphere%252C%2520luxury%2520product%2520photography%2520with%2520perfect%2520composition&width=500&height=600&seq=9&orientation=portrait",
+            image: "7.jpg",
             scent: "Fraîche"
         },
         {
@@ -147,7 +147,7 @@ function Parfumes({ handlePageChange }) {
             name: "Cashmere Wood",
             price: 23000,
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid nobis, praesentium amet rerum ab tempora ipsam nam.",
-            image: "https://readdy.ai/api/search-image?query=Elegant%2520wooden%2520capped%2520perfume%2520bottle%2520with%2520amber%2520liquid%2520on%2520a%2520cream%2520colored%2520background%2520with%2520soft%2520lighting%2520and%2520subtle%2520wooden%2520elements%2520creating%2520a%2520warm%2520atmosphere%252C%2520luxury%2520product%2520photography%2520with%2520perfect%2520composition&width=500&height=600&seq=10&orientation=portrait",
+            image: "8.jpg",
             scent: "Boisée"
         },
         {
@@ -155,7 +155,7 @@ function Parfumes({ handlePageChange }) {
             name: "Rose Elixir",
             price: 21000,
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid nobis, praesentium amet rerum ab tempora ipsam nam.",
-            image: "https://readdy.ai/api/search-image?query=Pink%2520tinted%2520glass%2520perfume%2520bottle%2520with%2520gold%2520details%2520on%2520a%2520cream%2520colored%2520background%2520with%2520soft%2520lighting%2520and%2520subtle%2520rose%2520petals%2520creating%2520a%2520romantic%2520atmosphere%252C%2520luxury%2520product%2520photography%2520with%2520perfect%2520composition&width=500&height=600&seq=11&orientation=portrait",
+            image: "9.jpg",
             scent: "Florale"
         },
         {
@@ -163,7 +163,7 @@ function Parfumes({ handlePageChange }) {
             name: "Vanilla Dreams",
             price: 19000,
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid nobis, praesentium amet rerum ab tempora ipsam nam.",
-            image: "https://readdy.ai/api/search-image?query=Elegant%2520cream%2520colored%2520perfume%2520bottle%2520with%2520gold%2520accents%2520on%2520a%2520cream%2520colored%2520background%2520with%2520soft%2520lighting%2520and%2520subtle%2520vanilla%2520bean%2520elements%2520creating%2520a%2520warm%2520atmosphere%252C%2520luxury%2520product%2520photography%2520with%2520perfect%2520composition&width=500&height=600&seq=12&orientation=portrait",
+            image: "10.jpg",
             scent: "Orientale"
         },
         {
@@ -171,7 +171,7 @@ function Parfumes({ handlePageChange }) {
             name: "Citrus Splash",
             price: 15500,
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid nobis, praesentium amet rerum ab tempora ipsam nam.",
-            image: "https://readdy.ai/api/search-image?query=Bright%2520clear%2520glass%2520perfume%2520bottle%2520with%2520yellow%2520tinted%2520liquid%2520and%2520gold%2520cap%2520on%2520a%2520cream%2520colored%2520background%2520with%2520soft%2520lighting%2520and%2520subtle%2520citrus%2520elements%2520creating%2520a%2520fresh%2520atmosphere%252C%2520luxury%2520product%2520photography%2520with%2520perfect%2520composition&width=500&height=600&seq=13&orientation=portrait",
+            image: "11.jpg",
             scent: "Fraîche"
         },
         {
@@ -179,7 +179,7 @@ function Parfumes({ handlePageChange }) {
             name: "Cedar Whisper",
             price: 22500,
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid nobis, praesentium amet rerum ab tempora ipsam nam.",
-            image: "https://readdy.ai/api/search-image?query=Elegant%2520brown%2520glass%2520perfume%2520bottle%2520with%2520wooden%2520cap%2520on%2520a%2520cream%2520colored%2520background%2520with%2520soft%2520lighting%2520and%2520subtle%2520cedar%2520wood%2520elements%2520creating%2520an%2520earthy%2520atmosphere%252C%2520luxury%2520product%2520photography%2520with%2520perfect%2520composition&width=500&height=600&seq=14&orientation=portrait",
+            image: "12.jpg",
             scent: "Boisée"
         }
     ];
@@ -244,7 +244,7 @@ function Parfumes({ handlePageChange }) {
                 </div>
 
                 {/* Filters Section */}
-                <div className="bg-white p-6 rounded-lg shadow-md mb-8">
+                <div className="padding bg-white p-6 rounded-lg shadow-md mb-8">
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
                         <div className="flex flex-wrap gap-4 items-center">
                             {/* Scent Category Filter */}
@@ -280,8 +280,9 @@ function Parfumes({ handlePageChange }) {
                             </div>
 
                             {/* Price Range Filter */}
-                            <div className="flex items-center space-x-2">
-                                <span className="text-gray-700">Prix:</span>
+                            <div className="flex items-center space-x-2 flex-wrap">
+                                <span className="text-gray-700">Prixz:</span>
+                                <br />
                                 <div className="flex items-center space-x-2">
                                     <input
                                         type="number"
@@ -292,7 +293,7 @@ function Parfumes({ handlePageChange }) {
                                         max={priceRange[1]}
                                         className="w-24 border border-gray-300 rounded px-2 py-1 text-center"
                                     />
-                                    <span className="text-[#D4AF37]">FCFA</span>
+                                    <span className="span text-[#D4AF37]">FCFA</span>
                                     <span>-</span>
                                     <input
                                         type="number"
@@ -303,7 +304,7 @@ function Parfumes({ handlePageChange }) {
                                         max={value2}
                                         className="w-24 border border-gray-300 rounded px-2 py-1 text-center"
                                     />
-                                    <span className="text-[#D4AF37]">FCFA</span>
+                                    <span className="span text-[#D4AF37]">FCFA</span>
                                 </div>
                             </div>
                         </div>
@@ -321,7 +322,7 @@ function Parfumes({ handlePageChange }) {
                                     <span>Tri: {activeFilters.sort}</span>
                                     <i className="fas fa-chevron-down text-xs"></i>
                                 </button>
-                                <div id="sortMenu" className="absolute right-0 z-10 mt-1 w-48 bg-white border border-gray-200 rounded-md shadow-lg hidden">
+                                <div id="sortMenu" className="left absolute right-0 z-10 mt-1 w-48 bg-white border border-gray-200 rounded-md shadow-lg hidden">
                                     <ul className="py-1">
                                         {['En vedette', 'Prix ​​: élevé-bas', 'Prix ​​: bas-elevé', 'Nouveau', 'Meilleure vente'].map(sort => (
                                             <li key={sort}>

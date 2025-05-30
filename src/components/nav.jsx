@@ -59,7 +59,7 @@ export default function Nav({ isScrolled, handleSearchOpen, handleSearchClose, i
                         <FontAwesomeIcon icon="search" />
                     </button>
                     {isSearchOpen && (
-                        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50" onClick={handleSearchClose}>
+                        <div className="margin fixed inset-0 bg-black/50 flex items-center justify-center z-50" onClick={handleSearchClose}>
                             <div
                                 className="bg-white w-full max-w-2xl mx-4 p-6 rounded-lg shadow-2xl"
                                 onClick={e => e.stopPropagation()}

@@ -106,18 +106,35 @@ const About = ({ handlePageChange }) => {
                 <section>
                     <h2 className="text-3xl font-serif font-bold text-[#D4AF37] mb-8">Notre Equipe</h2>
                     <div className="grid md:grid-cols-3 gap-8">
-                        <div className="bg-white rounded-lg shadow-md p-6 text-center">
-                            <div className="w-32 h-32 mx-auto rounded-full bg-gray-100 mb-4"></div>
+                        <div className="bg-white rounded-lg shadow-md p-6 text-center flex flex-col items-center justify-between">
+                            <div className=" w-32 h-32 rounded-full overflow-hidden mb-4">
+                                <img
+                                    src="13.jpg"
+                                    alt="Chef Parfumeur"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
                             <h3 className="text-xl font-serif text-[#D4AF37] mb-2">Chef Parfumeur</h3>
                             <p className="text-gray-600">Chef de la Création des Parfums</p>
                         </div>
-                        <div className="bg-white rounded-lg shadow-md p-6 text-center">
-                            <div className="w-32 h-32 mx-auto rounded-full bg-gray-100 mb-4"></div>
-                            <h3 className="text-xl font-serif text-[#D4AF37] mb-2">Directeur Creatif</h3>
+                        <div className="bg-white rounded-lg shadow-md p-6 text-center flex flex-col items-center justify-between">
+                            <div className=" w-32 h-32 rounded-full overflow-hidden mb-4">
+                                <img
+                                    src="14.jpg"
+                                    alt="Directeur Creatif"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>                            <h3 className="text-xl font-serif text-[#D4AF37] mb-2">Directeur Creatif</h3>
                             <p className="text-gray-600">Concepteur visionnaire</p>
                         </div>
-                        <div className="bg-white rounded-lg shadow-md p-6 text-center">
-                            <div className="w-32 h-32 mx-auto rounded-full bg-gray-100 mb-4"></div>
+                        <div className="bg-white rounded-lg shadow-md p-6 text-center flex flex-col items-center justify-between">
+                            <div className=" w-32 h-32 rounded-full overflow-hidden mb-4">
+                                <img
+                                    src="15.jpg"
+                                    alt="Master Blendeur"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
                             <h3 className="text-xl font-serif text-[#D4AF37] mb-2">Master Blendeur</h3>
                             <p className="text-gray-600">Expert Fragrance</p>
                         </div>

@@ -55,14 +55,14 @@ const Home = ({ handlePageChange }) => {
             <section className="relative h-screen flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://readdy.ai/api/search-image?query=Elegant%20luxury%20perfume%20bottle%20with%20gold%20details%20on%20a%20cream%20colored%20background%20with%20soft%20lighting%20and%20subtle%20floral%20elements%20creating%20an%20atmosphere%20of%20sophistication%20and%20luxury%2C%20high-end%20product%20photography%20with%20shallow%20depth%20of%20field&width=1440&height=900&seq=1&orientation=landscape"
+                        src="bg.jpg"
                         alt="Luxury Perfume"
                         className="w-full h-full object-cover object-top"
                     />
                     <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent"></div>
                 </div>
                 <div className="container mx-auto px-4 relative z-10 text-center">
-                    <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+                    <h1 className="titre text-5xl md:text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
                         Révélez Votre Essence
                     </h1>
                     <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto mb-10">
@@ -90,7 +90,7 @@ const Home = ({ handlePageChange }) => {
                         <div className="group">
                             <div className="relative overflow-hidden mb-6 bg-[#FDF6E9] rounded">
                                 <img
-                                    src="https://readdy.ai/api/search-image?query=Elegant%20luxury%20perfume%20bottle%20with%20gold%20accents%20and%20a%20cream%20colored%20cap%20on%20a%20soft%20beige%20background%20with%20subtle%20shadows%2C%20minimalist%20high-end%20product%20photography%20with%20perfect%20lighting%20highlighting%20the%20glass%20texture%20and%20liquid%20inside&width=500&height=600&seq=2&orientation=portrait"
+                                    src="1.jpg"
                                     alt="Luxury Perfume"
                                     className="w-full h-[400px] object-cover object-top transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -108,7 +108,7 @@ const Home = ({ handlePageChange }) => {
                         <div className="group">
                             <div className="relative overflow-hidden mb-6 bg-[#FDF6E9] rounded">
                                 <img
-                                    src="https://readdy.ai/api/search-image?query=Sophisticated%20dark%20amber%20glass%20perfume%20bottle%20with%20gold%20details%20on%20a%20cream%20colored%20background%20with%20soft%20lighting%20and%20subtle%20smoke%20effect%20creating%20an%20atmosphere%20of%20mystery%20and%20luxury%2C%20high-end%20product%20photography%20with%20perfect%20composition&width=500&height=600&seq=3&orientation=portrait"
+                                    src="2.jpg"
                                     alt="Luxury Perfume"
                                     className="w-full h-[400px] object-cover object-top transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -126,7 +126,7 @@ const Home = ({ handlePageChange }) => {
                         <div className="group">
                             <div className="relative overflow-hidden mb-6 bg-[#FDF6E9] rounded">
                                 <img
-                                    src="https://readdy.ai/api/search-image?query=Crystal%20clear%20perfume%20bottle%20with%20gold%20embellishments%20and%20a%20white%20stopper%20on%20a%20cream%20colored%20background%20with%20soft%20shadows%20and%20subtle%20floral%20elements%2C%20minimalist%20luxury%20product%20photography%20with%20perfect%20lighting%20highlighting%20the%20transparency&width=500&height=600&seq=4&orientation=portrait"
+                                    src="3.jpg"
                                     alt="Luxury Perfume"
                                     className="w-full h-[400px] object-cover object-top transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -167,7 +167,7 @@ const Home = ({ handlePageChange }) => {
                         <div className="md:w-1/2">
                             <div className="relative">
                                 <img
-                                    src="https://readdy.ai/api/search-image?query=Elegant%20perfume%20making%20process%20with%20raw%20ingredients%20like%20flowers%2C%20spices%20and%20oils%20arranged%20artistically%20on%20a%20cream%20colored%20surface%20with%20soft%20lighting%20creating%20a%20luxurious%20atmosphere%2C%20high-end%20product%20photography%20with%20perfect%20composition&width=600&height=500&seq=5&orientation=landscape"
+                                    src="img.jpg"
                                     alt="Perfume Craftsmanship"
                                     className="w-full h-auto rounded-lg shadow-lg"
                                 />
